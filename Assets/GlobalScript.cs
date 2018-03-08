@@ -18,7 +18,5 @@ public class GlobalScript : MonoBehaviour, IInputClickHandler {
         newInstance.transform.position =
             Camera.main.transform.position +
             Camera.main.transform.forward * 2.0f;
-
-        eventData.Use();
     }
 }
